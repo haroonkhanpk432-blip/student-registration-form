@@ -1,0 +1,267 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#eef2f7;
+}
+
+header{
+    background:#309868;
+    color:white;
+    text-align:center;
+    padding:25px;
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
+}
+
+.form{
+    width:70%;
+    max-width:850px;
+    margin:40px auto;
+    background:white;
+    padding:35px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.H{
+    text-align:center;
+    color:#309868;
+    margin-bottom:25px;
+}
+
+.education,
+.college,
+.university{
+    border:2px solid #309868;
+    border-radius:10px;
+    padding:25px;
+    margin-bottom:30px;
+}
+
+.education h2,
+.college h2,
+.university h2{
+    text-align:center;
+    color:#309868;
+    margin-bottom:25px;
+ }
+/* .table{
+    width:100%;
+    border-collapse:collapse;
+    margin:20px 0;
+}
+
+.table th,
+.table td{
+    border:1px solid #ccc;
+    padding:12px;
+    text-align:center;
+}
+
+.table th{
+    /* background:#309868; */
+    color:black;
+/* } */
+
+/* .table tr:nth-child(even){
+    background:#f8f8f8;
+}
+
+.table tr:hover{
+    background:#e8f5e9;
+}  */ */
+
+
+ 
+ #matricDetails,
+#intermediateDetails,
+#universityDetails{
+    margin-top: 30px;
+}  
+#addIntermediate,#addMatric{
+    margin-bottom: 20px;
+}
+ 
+#universityDetails{
+    width:100%;
+    margin-top:40px;
+}
+
+#universityDetails h3{
+    font-size:28px;
+    font-weight:500;
+    margin-bottom:20px;
+} 
+
+.table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.table th{
+    text-align:left;
+    font-size:18px;
+    font-weight:bold;
+    padding:18px 14px;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+}
+
+.table td{
+    padding:18px 14px;
+    border-bottom:1px solid #ddd;
+}
+
+#matricDetails h3,
+#intermediateDetails h3,
+#universityDetails h3{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #309868;
+    font-size: 24px;
+}
+.name,
+.marks,
+.second,
+.third,
+.fourth,
+.five{
+    display:flex;
+    gap:20px;
+    margin-top:20px;
+}
+
+.field{
+    flex:1;
+}
+
+.field label{
+    display:block;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+
+.field input,
+.field select{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:15px;
+}
+
+.field input:focus,
+.field select:focus{
+    outline:none;
+    border-color:#309868;
+    box-shadow:0 0 8px rgba(13,110,253,.3);
+}
+
+button{
+    padding:12px 28px;
+    border:none;
+    border-radius:8px;
+    background:#309868;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    margin:20px 10px 0 0;
+    transition:.3s;
+}
+
+button:hover{
+    background:#267b55;
+    transform:translateY(-2px);
+}
+
+footer{
+    background:#309868;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
+
+@media (max-width:768px){
+
+    .form{
+        width:95%;
+        padding:20px;
+    }
+
+    .education,
+    .college,
+    .university{
+        padding:20px;
+    }
+
+    .name,
+    .marks,
+    .second,
+    .third,
+    .fourth,
+    .five{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .field input,
+    .field select{
+        width:100%;
+    }
+
+    button{
+        width:100%;
+        margin:15px 0 0;
+    }
+
+    h1{
+        font-size:32px;
+    }
+
+    h2{
+        font-size:24px;
+    }
+}
+
+@media (max-width:400px){
+
+    .form{
+        width:95%;
+        padding:15px;
+    }
+
+    .education,
+    .college,
+    .university{
+        padding:15px;
+    }
+
+    .field label{
+        font-size:14px;
+    }
+
+    .field input,
+    .field select{
+        padding:10px;
+        font-size:14px;
+    }
+
+    h1{
+        font-size:28px;
+    }
+
+    h2{
+        font-size:20px;
+    }
+
+    button{
+        width:100%;
+        font-size:15px;
+        padding:12px;
+    }
+}
